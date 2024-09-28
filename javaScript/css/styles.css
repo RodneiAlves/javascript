@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+body{
+    background-color: #0000008a;
+   
+}
+table{
+   width: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+    margin: 0 auto;
+}
+table td{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+main input{
+    border: 1px solid black;
+    width: 100%;
+    padding: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+
+.component footer{
+ 
+    background-color: rgba(0, 0, 0, 0.199);
+    color: rgb(17, 12, 12);
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    display: flex;
+   justify-content: space-between;
+   padding: 2px;
+   width: 100%;
+  
+}
+footer p{
+    border: 1px solid rgb(5, 1, 1);
+    margin: 10px;
+}
